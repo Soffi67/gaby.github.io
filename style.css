@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(223, 230, 238);
+    }
+    body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #ffffff; /* Fondo blanco */
+        color: #000000; /* Texto negro */
+    }
+    
+    header {
+        background: #444444; /* Color gris oscuro */
+        color: #ffffff; /* Texto blanco */
+        padding: 20px;
+        text-align: center;
+    }
+    
+    header h1 {
+        margin: 0; /* Sin margen para el título */
+    }
+    
+    header p {
+        font-size: 1.2em; /* Tamaño de fuente más grande para el mensaje */
+        margin: 10px 0; /* Espacio entre el título y el mensaje */
+    }
+    
+    nav ul {
+        list-style-type: none; /* Sin viñetas */
+        padding: 0;
+    }
+    
+    nav ul li {
+        display: inline; /* En línea */
+        margin: 0 15px; /* Espacio entre los enlaces */
+    }
+    
+    nav ul li a {
+        color: #ffffff; /* Enlaces en blanco */
+        text-decoration: none; /* Sin subrayado */
+    }
+    
+    section {
+        padding: 20px;
+        margin: 15px;
+        border: 1px solid #cccccc; /* Borde gris claro */
+        border-radius: 5px; /* Esquinas redondeadas */
+        background: #f9f9f9; /* Fondo gris claro */
+    }
+    
+    footer {
+        text-align: center;
+        padding: 10px 0;
+        background: #444444; /* Mismo color que el header */
+        color: #ffffff; /* Texto blanco */
+    }
+    
+    
+    

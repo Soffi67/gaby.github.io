@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pierce the Veil</title>
+        <link rel="stylesheet" href="styles.css">
+        <script>
+            function mostrarImagen() {
+                var img = document.getElementById('biografia-imagen');
+                img.style.display = img.style.display === 'none' ? 'block' : 'none';
+            }
+        </script>
+    </head>
+    <body>
+        <header>
+            <h1>Pierce the Veil</h1>
+            <p>¡!</p>
+            <nav>
+                <ul>
+                    <li><a href="#BIOGRAFIA">BIOGRAFIA</a></li>
+                    <li><a href="#MUSICA">MUSICA</a></li>
+                    <li><a href="#VIDEO">VIDEO</a></li>
+                    <li><a href="#LOL">LOL</a></li>
+                </ul>
+            </nav>
+        </header>
+    
+        <section id="biografia">
+            <h2>Biografía</h2>
+            <p>Pierce the Veil es una influyente banda de post-hardcore originaria de San Diego, California, formada en 2006. Compuesta por Vic Fuentes (voz y guitarra), Mike Fuentes (batería), Tony Perry (guitarra) y Jaime Preciado (bajo), la banda ha sido reconocida por su estilo distintivo que mezcla melodías emotivas con riffs pesados y letras introspectivas.
+
+                Su primer álbum, A Flair for the Dramatic, se lanzó en 2007, capturando la atención de la escena musical con su energía y sinceridad. Sin embargo, fue su segundo álbum, Collide with the Sky (2012), el que catapultó a la banda a la fama, incluyendo éxitos como "King for a Day" y "Bulls in the Bronx".
+                
+                A lo largo de su carrera, Pierce the Veil ha realizado múltiples giras por todo el mundo, participando en festivales y compartiendo escenario con bandas icónicas. Su tercer álbum, Misadventures (2016), consolidó aún más su lugar en la escena musical, recibiendo críticas positivas y consolidando su base de seguidores.
+                
+                Con una fuerte conexión emocional con sus fans, Pierce the Veil continúa creando música que resuena profundamente, explorando temas de amor, pérdida y lucha personal. Su estilo único y su dedicación los han convertido en un pilar del post-hardcore contemporáneo....</p>
+            <button onclick="mostrarImagen()">Mostrar imagen</button>
+            <img id="biografia-imagen" src="img/ptv.png" alt="Imagen de Pierce the Veil" style="display: none; margin-top: 76px;"></img>
+        </section>
+    
+        <section id="MUSICA">
+            <h2>Musica</h2>
+            <p>ALGUNA DE SUS CANCIONES:</p>
+            <ul>
+                <li><audio id="SUENA" src="Pierce_The_Veil_-_Pass_The_Nirvana_Official_Music_Video_[_YouConvert.net_].mp3" controls =""</audio>Pass The Nirvana</li><br><br>
+
+                <li><audio id="SUENA" src="I_Don_t_Care_If_You_re_Contagious_[_YouConvert.net_].mp3" controls=""</audio>I dont care</li><br><br>
+
+                <li><audio id="SUENA" src="Pierce_The_Veil_Disasterology_[_YouConvert.net_].mp3" controls=""</audio>Pierce_The_Veil_Disasterology_</li> <br><br>
+
+            </ul>  
+        </section>>
+
+    
+        <section id="VIDEO">
+            <h2>Video</h2>
+            <p>:3
+
+                <video src="Pierce The Veil Caraphernelia (Official Music Video).mp4" controls </video>
+        </section>
+    
+        <section id="LOL">
+            <h2>Lol</h2>
+            <p>:3</p>
+        </section>
+
+        <div class="container">
+            <h2>COMENTARIOS</h2>
+            <form action="procesar.php" method="POST">
+                <div class="form-group">
+                    <label for="nombre">NOMBRE:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div><br>
+
+                <div class="form-group">
+                    <label for="CANCION FAVORITA">CANCION FAVORITA:</label>
+                    <input type="CANCION" id="CANCION" name="CANCION" required>
+                </div><br>
+
+                <div class="form-group">
+                    <label for="PREGUNTA">¿HAZ IDO A ALGUNO DE SUS CONCIERTOS?:</label>
+                    <input type="CONCIERTO" id="CONCIERTO" name="CONCIERTO" required>
+                </div><br>
+
+                <div class="form-group">
+                    <label for="mensaje">¿QUE TE GUSTO MAS DE LA BANDA?:</label>
+                    <textarea id="OPINION" name="OPINION" required></textarea>
+                </div><br><br>
+
+                <button type="submit">Enviar</button> <br><br>
+                
+            </form>
+        </div>
+
+
+</body>
+</html>
